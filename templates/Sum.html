@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<head>
+    <title>Нашаганность</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="content">
+        <h1>Давай посмотрим, сколько у тебя шагов!</h1>
+        <span id="totalSteps">0</span>
+    </div>
+</body>
+
+<a href="http://127.0.0.1:5000/Day"><button>Добавить Шаго-день</button></a>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</html>
